@@ -1,6 +1,3 @@
-// const BASE_URL = process.env.API_BASE_URL;
-// const BYPASS_TOKEN = process.env.BYPASS_SECRET;
-
 const BASE_URL =
   process?.env?.API_BASE_URL ??
   "https://vercel-agentic-swag-store-api.vercel.app/api";
