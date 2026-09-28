@@ -4,7 +4,7 @@ import { salesTotalsByProduct } from "../../lib/api.js";
 
 export default defineTool({
   description:
-    "Sales totals for a date range, broken down by product. Sorted by units sold descending so bestsellers appear first. Available for ~180 days.",
+    "Total sales for a date range, broken down by product. Sorted by units sold descending so bestsellers appear first. Available for ~180 days.",
   inputSchema: z.object({
     from: z.string().optional(),
     to: z.string().optional(),
