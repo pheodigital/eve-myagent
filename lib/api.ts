@@ -4,8 +4,7 @@
 const BASE_URL =
   process?.env?.API_BASE_URL ??
   "https://vercel-agentic-swag-store-api.vercel.app/api";
-const BYPASS_TOKEN =
-  process?.env?.BYPASS_SECRET ?? "OykROcuULI6YJwAwk3VnWv4gMMbpAq6q";
+const BYPASS_TOKEN = process?.env?.BYPASS_SECRET ?? "";
 
 type Params = Record<string, string | number | undefined>;
 
